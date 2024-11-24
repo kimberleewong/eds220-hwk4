@@ -28,4 +28,15 @@ eds220-hwk4
 ```
 
 ## Data
+The landsat data comes from Microsoft Planetary Computer Data Catalogue, and it is a simplified collection of colored bands. It was processed to remove data outside land and coarsen the spatial resolution. It is not included in this repo, for it is housed in the server.
 
+The California fire perimeter shapefile  comes from the data catalog owned by the United States government. It is specific to the state of California and public, so it was intended for public access and use. Their metadata states that this data provides a "a reasonable view of the spatial distribution of past large fires but is in no way complete." But, for our uses, it has the adequate amount of information. This is not included in the repository, but it can be accessed in the link in the references section.
+
+The Thomas Fire boundary was created in by filtering a California Fire perimeter file available from the US Government Data Catalogue. This is the only data included in the repository, under the data folder.
+
+## References
+Hamm, K. (2017, December 14). Closing schools and moving finals due to Thomas Fire. The Santa Barbara Independent. https://www.independent.com/2017/12/13/closing-schools-and-moving-finals-due-thomas-fire/ 
+
+Microsoft Planetary Computer Data Catalogue, Landsat collection 2 Level-2 [Data file] Available from: https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2. Access date: November 22, 2024.
+
+Data.gov Data Catalogue, California Fire Perimeters (all) [Data file] Available from: https://catalog.data.gov/dataset/california-fire-perimeters-all-b3436. Access date: November 22, 2024.
